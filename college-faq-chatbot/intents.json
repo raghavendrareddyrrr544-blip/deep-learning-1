@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning"],
+      "responses": ["Hello! How can I help you?"]
+    },
+    {
+      "tag": "timing",
+      "patterns": [
+        "college timing",
+        "college hours",
+        "when does college start",
+        "when does college end"
+      ],
+      "responses": [
+        "College working hours are from 8:30 AM to 4:30 PM."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "library timing",
+        "when is library open",
+        "library hours",
+        "when does library close"
+      ],
+      "responses": [
+        "The library is open from 9 AM to 5 PM."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fee payment",
+        "how to pay fees",
+        "college fees",
+        "semester fees"
+      ],
+      "responses": [
+        "You can pay your semester fees through the college fee payment portal."
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "attendance",
+        "attendance requirement",
+        "minimum attendance",
+        "attendance percentage"
+      ],
+      "responses": [
+        "Students should maintain the minimum attendance required by the college."
+      ]
+    },
+    {
+      "tag": "exam",
+      "patterns": [
+        "exam",
+        "exam date",
+        "semester exam",
+        "exam schedule"
+      ],
+      "responses": [
+        "Please check the college examination department or student portal for the latest exam schedule."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel",
+        "hostel facility",
+        "college hostel",
+        "hostel information"
+      ],
+      "responses": [
+        "Hostel facilities are available for students. Please contact the hostel administration for details."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thank you so much"
+      ],
+      "responses": [
+        "You're welcome! 😊"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!"
+      ]
+    }
+  ]
+}
